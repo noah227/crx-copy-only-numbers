@@ -1,0 +1,11 @@
+{
+	"appName": {
+		"message": "数字复制"
+	},
+	"appDesc": {
+		"message": "复制选中内容中的数字内容"
+	},
+	"attentionInfo": {
+		"message": "本扩展仅在安全协议下的网站生效。"
+	}
+}

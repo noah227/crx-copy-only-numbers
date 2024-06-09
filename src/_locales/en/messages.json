@@ -1,0 +1,11 @@
+{
+	"appName": {
+		"message": "Copy Only Numbers"
+	},
+	"appDesc": {
+		"message": "Copy only numbers from selected text"
+	},
+	"attentionInfo": {
+		"message": "This extension only works on websites with SecureContext."
+	}
+}
