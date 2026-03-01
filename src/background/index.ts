@@ -2,7 +2,7 @@
 	try {
 		chrome.contextMenus.removeAll(() => {
 			chrome.contextMenus.create({
-				id: "crx-copy-only-numbers-menu-1",
+				id: "crx-copy-only-numbers-menu",
 				contexts: ["selection"],
 				type: "normal",
 				title: chrome.i18n.getMessage("appName"),
