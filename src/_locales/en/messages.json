@@ -3,7 +3,7 @@
 		"message": "Copy Only Numbers"
 	},
 	"appDesc": {
-		"message": "Copy only numbers from selected text"
+		"message": "Copy only numbers from text selection."
 	},
 	"attentionInfo": {
 		"message": "This extension only works on websites with SecureContext."
