@@ -4,11 +4,9 @@
 		try {
 			const {num} = message
 			void navigator.clipboard.writeText(num)
-		}
-		catch (e) {
-
-		}
-		finally {
+		} catch (e) {
+			alert(e instanceof Error ? e.message : e?.toString())
+		} finally {
 			sendResponse()
 		}
 	})
