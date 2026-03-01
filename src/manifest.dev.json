@@ -5,8 +5,7 @@
 	"version": "0.0.1",
 	"options_page": "options.html",
 	"content_security_policy": {
-		"extension_pages": "script-src 'self'; object-src 'self'",
-		"sandbox": "sandbox allow-scripts allow-modals allow-forms; script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self';"
+		"extension_pages": "script-src 'self'; object-src 'self'"
 	},
 	"permissions": [
 		"contextMenus"
@@ -30,8 +29,6 @@
 	"default_locale": "en",
 	"web_accessible_resources": [
 	],
-	"sandbox": {
-	},
 	"icons": {
 		"16": "assets/logo.png",
 		"32": "assets/logo.png",
