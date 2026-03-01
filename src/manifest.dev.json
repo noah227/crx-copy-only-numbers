@@ -6,7 +6,7 @@
 	"options_page": "options.html",
 	"content_security_policy": {
 		"extension_pages": "script-src 'self'; object-src 'self'",
-		"sandbox": "sandbox allow-scripts allow-modals allow-forms allow-popups; script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self';"
+		"sandbox": "sandbox allow-scripts allow-modals allow-forms; script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self';"
 	},
 	"permissions": [
 		"contextMenus"

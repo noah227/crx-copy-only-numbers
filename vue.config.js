@@ -3,7 +3,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin")
 const path = require("path")
 
 /** 所有Vue打包入口 **/
-const pageEntryDirs = ["options", "popup"]
+const pageEntryDirs = ["options"]
 const pages = pageEntryDirs.reduce((pages, dir) => {
 	pages[dir] = {
 		entry: `src/${dir}/main.ts`,
